@@ -3,6 +3,8 @@ h1{text-align:center;}
 p{margin: 0; font: 18px/150% Verdana; text-align: center; color:black;}
 p a{color: black;}
 
+#youtube{text-align:center;}
+
 #controls{text-align: center;}
 #controls button{
 	cursor: pointer;
