@@ -1,0 +1,81 @@
+::selection {background: transparent;}
+h1{text-align:center;}
+p{margin: 0; font: 18px/150% Verdana; text-align: center; color:black;}
+p a{color: black;}
+
+#controls{text-align: center;}
+#controls button{
+	cursor: pointer;
+	outline: none;	
+	padding: 10px 20px;
+	margin: 25px 2px;
+	border: 0;
+	border-radius: 3px;
+	background: blue;
+	font: bold 14px Arial;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#controls button:hover{background: purple;}
+
+#puzzle{
+	position: relative;
+	width: 389px;
+	height: 389px;
+	margin: 0 auto;
+	margin-top: 96px;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+#puzzle span{
+	position: absolute;
+	display: block;
+	width: 96px;
+	height: 96px;
+	border-radius: 4px;
+}
+#puzzle span.number{
+	cursor: pointer;
+	font: bold 32px/96px Verdana;
+	text-align: center;
+	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#puzzle span.empty{background: transparent;}
+#puzzle span.number.one{background-image: url("img/image_part_001.jpg");
+                       background-size: 96px 96px;}
+#puzzle span.number.two{background-image: url("img/image_part_002.jpg");
+                       background-size: 96px 96px;}
+#puzzle span.number.three{background-image: url("img/image_part_003.jpg");
+                         background-size: 96px 96px;}
+#puzzle span.number.four{background-image: url("img/image_part_004.jpg");
+                        background-size: 96px 96px;}
+#puzzle span.number.five{background-image: url("img/image_part_005.jpg");
+                        background-size: 96px 96px;}
+#puzzle span.number.six{background-image: url("img/image_part_006.jpg");
+                       background-size: 96px 96px;}
+#puzzle span.number.seven{background-image: url("img/image_part_007.jpg");
+                         background-size: 96px 96px;}
+#puzzle span.number.eight{background-image: url("img/image_part_008.jpg");
+                         background-size: 96px 96px;}
+#puzzle span.number.nine{background-image: url("img/image_part_009.jpg");
+                        background-size: 96px 96px;}
+#puzzle span.number.ten{background-image: url("img/image_part_010.jpg");
+                       background-size: 96px 96px;}
+#puzzle span.number.eleven{background-image: url("img/image_part_011.jpg");
+                          background-size: 96px 96px;}
+#puzzle span.number.twelve{background-image: url("img/image_part_012.jpg");
+                          background-size: 96px 96px;}
+#puzzle span.number.thirteen{background-image: url("img/image_part_013.jpg");
+                            background-size: 96px 96px;}
+#puzzle span.number.fourteen{background-image: url("img/image_part_014.jpg");
+                            background-size: 96px 96px;}
+#puzzle span.number.fifteen{background-image: url("img/image_part_015.jpg");
+                           background-size: 96px 96px;}
+
+#puzzle.animate span{
+	-webkit-transition: 0.15s left, 0.15s top;
+ 	transition: 0.15s left, 0.15s top;
+}
